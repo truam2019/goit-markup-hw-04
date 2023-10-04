@@ -88,7 +88,7 @@
       <input type="email" name="email" id="user_email" /> -->
 
       <!--Benefits section-->
-      <section class="section">
+      <section class="section__description">
         <!-- TODO:prueba mientras tanto TODO:LINEA 288 EN CSS-->
         <!-- <div class="con>
         <div class="flex-benefits">
@@ -97,17 +97,8 @@
           </div> -->
         <!-- </div> -->
 
-        <!--
-          <ul>
-            <li>
-              <a href="#">
-                
-              </a>
-            </li>
-          </ul>
-        </div> -->
 
-        <div class="container">
+        <div class="">
           <ul class="benefits">
             <li class="benef-l">
               <div class="benefits-container">
@@ -207,13 +198,13 @@
           <!--cards-->
           <ul class="team">
             <li>
-              <img src="./images/team1.jpg" alt="first member" width="270" />
+              <div class="our-team-images">
+              <img src="./images/team1.jpg" alt="first member" width="100%" />
               <h3 class="who-name">Andrés Cubo</h3>
               <p class="area">Diseñador de Productos</p>
-
+              </div>
               <!-- ------------------------redes sociales -------------------------- -->
-
-              <ul>
+              <ul class="icons-list">
                 <li>
                   <a href="#">
                     <svg class="icon-social">
@@ -249,11 +240,12 @@
             </li>
 
             <li>
-              <img src="./images/team2.jpg" alt="second member" width="270" />
+              <div class="our-team-images">
+              <img src="./images/team2.jpg" alt="second member" width="100%" />
               <h3 class="who-name">Carla Palacios</h3>
               <p class="area">Desarrolladora Frontend</p>
-
-              <ul>
+              </div>  
+              <ul  class="icons-list">
                 <li>
                   <a href="#">
                     <svg class="icon-social">
@@ -289,11 +281,13 @@
             </li>
 
             <li>
-              <img src="./images/team3.jpg" alt="third member" width="270" />
+              <div class="our-team-images">
+              <img src="./images/team3.jpg" alt="third member" width="100%" />
               <h3 class="who-name">Mario Dorado</h3>
               <p class="area">Marketing</p>
-
-              <ul>
+              </div>
+              
+              <ul  class="icons-list">
                 <li>
                   <a href="#">
                     <svg class="icon-social">
@@ -329,11 +323,12 @@
             </li>
 
             <li>
-              <img src="./images/team4.jpg" alt="fourth member" width="270" />
+              <div class="our-team-images">
+              <img src="./images/team4.jpg" alt="fourth member" width="100%" />
               <h3 class="who-name">Pablo Mijangos</h3>
               <p class="area">Diseñador IU</p>
-
-              <ul>
+              </div>
+              <ul  class="icons-list">
                 <li>
                   <a href="#">
                     <svg class="icon-social">
@@ -441,44 +436,44 @@
           <a class="footer-email" href="info@example.com">info@example.com</a>
           <a class="footer-phone" href="tel:+525555296000">+525555296000</a>
         </address>
+        <div class="footer1">
+          <h4 class="footer-logo1">encuentrenos en</h4>
+          <ul class="social-red">
+            <li>
+              <a class="afooter" href="#">
+                <svg class="icon-footer">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="afooter">
+                <svg class="icon-footer">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="afooter">
+                <svg class="icon-footer">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="afooter">
+                <svg class="icon-footer">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="footer1">
-        <h4 class="footer-logo1">encuentrenos en</h4>
-        <ul class="social-red">
-          <li>
-            <a class="afooter" href="#">
-              <svg class="icon-footer">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="afooter">
-              <svg class="icon-footer">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="afooter">
-              <svg class="icon-footer">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="afooter">
-              <svg class="icon-footer">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
     </footer>
 
     <!-- ------------------------wysde original TODO: -footer------------------------------>
