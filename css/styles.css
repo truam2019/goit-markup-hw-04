@@ -88,7 +88,6 @@ a {
   padding-bottom: 94px;
 }
 
-
 /*
 */
 
@@ -114,7 +113,7 @@ header {
   border-top-width: 0px;
   border-right-width: 0px;
   border-left-width: 0px;
-  
+
   height: 80px;
   padding: 0 var(--container-pading);
 }
@@ -145,7 +144,7 @@ header nav .logo {
 header nav .nav-menu {
   display: flex;
   list-style: none;
-  gap: 80px;
+  gap: 30px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -155,7 +154,7 @@ header nav .nav-menu .page {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
-  
+
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -195,7 +194,7 @@ header nav .nav-menu .page {
 ul {
   list-style: none;
 }
-.icons-list{
+.icons-list {
   display: flex;
 }
 
@@ -260,12 +259,12 @@ header li .icon-mailbox {
 .hero-bg-hero {
   padding: 200px var(--container-pading);
   background-image: linear-gradient(
-    to right,
+      to right,
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
-      ),
+    ),
     url("../images/background.jpg");
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -296,28 +295,28 @@ header li .icon-mailbox {
 
 /*--------------------------------------benefits-sections----------------------------------------*/
 
-.section__description{
+.section__description {
   padding-bottom: 94px;
   padding-top: 82px;
   justify-content: center;
   justify-items: center;
   display: flex;
+  width: 100%; 
   flex-wrap: wrap;
-  width: auto;
-  }
+}
 .benefits {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-evenly;
   display: flex;
   width: 1200px;
-  margin: none;
+  padding: none;
 }
 
 .benefits .benef-l {
   list-style: none;
   width: 240px;
-  }
+}
 
 .benefits .benef-l .title-benefits {
   height: 50px;
@@ -478,7 +477,7 @@ header li .icon-mailbox {
       0px 2px 1px rgba(0, 0, 0, 0.2); */
 }
 
-.our-team-images{
+.our-team-images {
   width: 270px;
   /*padding:32px;*/
 }
@@ -568,12 +567,11 @@ section-team .container .team li ul {
   line-height: 1.2;
   text-align: center;
   padding-top: 94px;
-  
 }
-  height: 42px;
-  color: var(--primary-black-color);
-  padding-top: 59px;
-  padding-bottom: 50px;
+height: 42px;
+color: var(--primary-black-color);
+padding-top: 59px;
+padding-bottom: 50px;
 
 .container-title-clients {
   padding: 0 15px;
@@ -583,7 +581,7 @@ section-team .container .team li ul {
   gap: 80px;
   background-color: #ffffff;
 }
-.clients{
+.clients {
   display: flex;
   padding-top: 50px;
 }
@@ -771,6 +769,11 @@ section-team .container .team li ul {
 }
 
 /*----------------------card list---------*/
+.portafolio-container {
+  width: auto;
+  justify-content: center;
+  justify-items: center;
+}
 
 .portfolio .cards {
   justify-content: space-between;
@@ -779,7 +782,7 @@ section-team .container .team li ul {
 }
 
 .portfolio .cards li {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   width: 360px;
 }
 
@@ -797,18 +800,24 @@ section-team .container .team li ul {
 ul li:hover {
   color: var(--primary-white-color);
 }
+.cards-container {
+  padding-bottom: 82px;
+}
 
 /*-------------------cards--------------*/
 
-.container .list {
+.list {
   display: flex;
+  gap: 26px;
   flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
+  /* align-items: flex-start; */
+  /* justify-content: space-between; */
+  /* background-color: #188ce8; */
 }
 
 .container .list li {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
@@ -836,8 +845,6 @@ ul li:hover {
 .footer {
   width: auto;
   padding-bottom: 5px;
-  padding-top: 60px;
-  padding-bottom: 60px;
   background-color: #2f303a;
   justify-content: center;
   justify-items: center;
@@ -857,7 +864,6 @@ ul li:hover {
 .footer-address {
   display: flex;
   flex-direction: column;
-  padding-left: 215px;
 }
 
 .footer-logo {
@@ -867,7 +873,7 @@ ul li:hover {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
-  margin-bottom: 6px;
+  padding-bottom: 6px;
   color: var(--accent-color);
 }
 
@@ -878,7 +884,7 @@ ul li:hover {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-white-color);
+  color: #FFFFFF99;
 
   /* text-decoration: none;
   padding: 5px 0; */
@@ -893,7 +899,7 @@ ul li:hover {
   line-height: 1.7;
   letter-spacing: 0.03em;
   /* color: var(--primary-text-color); */
-  color: rgba(255, 255, 255, 0.6);
+  color:#FFFFFF99;
   margin-bottom: 9px;
 }
 
