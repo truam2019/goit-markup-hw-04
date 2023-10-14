@@ -817,8 +817,8 @@ ul li:hover {
 }
 
 .info-card {
-  padding: 30px;
-  display:flex;
+  padding: 26px;
+  display: flex;
   flex-direction: column;
   row-gap: 8px;
 }
