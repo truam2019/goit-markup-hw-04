@@ -818,9 +818,9 @@ ul li:hover {
 
 .info-card {
   padding: 26px;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  row-gap: 8px;
+  row-gap: 8px;*/
 }
 
 .container .list li {
@@ -891,7 +891,7 @@ ul li:hover {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #FFFFFF99;
+  color: #FFFFFF;
 
   /* text-decoration: none;
   padding: 5px 0; */
@@ -910,7 +910,6 @@ ul li:hover {
   margin-bottom: 9px;
 }
 
-.footer-location:hover,
 .footer-email:hover,
 .footer-phone:hover {
   color: var(--button-primary-hover);
